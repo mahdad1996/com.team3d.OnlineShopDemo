@@ -18,11 +18,11 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter Name:");
+        System.out.println("Enter Name : ");
         String name = input.next();
-        System.out.println("Enter username:");
+        System.out.println("Enter username : ");
         String username = input.next();
-        System.out.println("Enter password");
+        System.out.println("Enter password : ");
         String password = input.next();
         Cart cart = new Cart();
         CartDAO cartDAO = new CartDb();
@@ -35,7 +35,7 @@ public class Main {
         boolean selection=true;
 
         while (selection) {
-            System.out.println("What you want ? 1-Add Product | 2-Delete Product | 3-Confirm");
+            System.out.println("What you want? 1-Add Product | 2-Delete Product | 3-Confirm");
             Scanner inputSelection = new Scanner(System.in);
             int select = inputSelection.nextInt();
             switch (select) {

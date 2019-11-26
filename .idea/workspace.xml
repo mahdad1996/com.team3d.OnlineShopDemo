@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126f225c-1b49-4549-947e-65a46be7ef4e" name="Default Changelist" comment="" />
+    <list default="true" id="126f225c-1b49-4549-947e-65a46be7ef4e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/team3d/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/team3d/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U3OnbvUIkPkzmjhriUGzw4oHFT" />
   <component name="PropertiesComponent">
@@ -74,10 +79,22 @@
       <workItem from="1574742459983" duration="13844000" />
       <workItem from="1574759367774" duration="1714000" />
       <workItem from="1574777162887" duration="1755000" />
+      <workItem from="1574792935145" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
