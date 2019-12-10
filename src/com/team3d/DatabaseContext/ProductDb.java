@@ -93,6 +93,7 @@ public class ProductDb implements ProductDAO {
             Statement statement = connection.createStatement();
             int i = statement.executeUpdate("DELETE from product where id=" + pid);
             if(i==1){
+
                 return true;
             }
             } catch (SQLException ex) {

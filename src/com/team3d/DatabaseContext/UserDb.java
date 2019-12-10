@@ -6,6 +6,7 @@ import com.team3d.Entities.User;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class UserDb implements UserDAO {
     @Override
@@ -55,6 +56,8 @@ public class UserDb implements UserDAO {
             e.printStackTrace();
         }
         return null;
+
+
     }
 
     @Override

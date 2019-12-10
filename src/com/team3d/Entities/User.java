@@ -1,8 +1,10 @@
 package com.team3d.Entities;
 
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Objects;
 
-public class User {
+public class User implements Comparable<User> {
 
     protected int id;
     protected String name;
@@ -85,5 +87,24 @@ public class User {
     public void setCart(Cart cart) {
         this.cart = cart;
     }
+
+    @Override
+    public int compareTo(User o) {
+        int id = ((User) o).getId();
+        return this.id - id;
+
+    }
+
+    public static Comparator<User> usernameComprator = new Comparator<User>() {
+        @Override
+        public int compare(User o1, User o2) {
+            String uName1 = o1.getUsername();
+            String uName2 = o2.getUsername();
+            return uName1.compareTo(uName2);
+        }
+    };
+
+    
+
 
 }

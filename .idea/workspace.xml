@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126f225c-1b49-4549-947e-65a46be7ef4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnlineShopV.1/com/team3d/DatabaseContext/UserDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnlineShopV.1/com/team3d/DatabaseContext/UserDb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnlineShopV.1/com/team3d/Entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnlineShopV.1/com/team3d/Entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OnlineShopV.1/com/team3d/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OnlineShopV.1/com/team3d/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/team3d/DatabaseContext/CartDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/team3d/DatabaseContext/CartDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/team3d/DatabaseContext/ProductDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/team3d/DatabaseContext/ProductDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/team3d/DatabaseContext/UserDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/team3d/DatabaseContext/UserDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/team3d/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/team3d/Entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/team3d/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/team3d/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +32,7 @@
   </component>
   <component name="ProjectId" id="1U3OnbvUIkPkzmjhriUGzw4oHFT" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -30,6 +40,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\OnlineShopV.1\src\com\team3d\DatabaseContext" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -79,8 +94,20 @@
       <workItem from="1574742459983" duration="13844000" />
       <workItem from="1574759367774" duration="1714000" />
       <workItem from="1574777162887" duration="1755000" />
-      <workItem from="1574792935145" duration="22000" />
+      <workItem from="1574792935145" duration="2928000" />
+      <workItem from="1574920298411" duration="52000" />
+      <workItem from="1574935526723" duration="16000" />
+      <workItem from="1575633637770" duration="572000" />
+      <workItem from="1575992211192" duration="1646000" />
     </task>
+    <task id="LOCAL-00001" summary="secound commit">
+      <created>1574793004283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574793004283</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,10 +118,37 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="secound commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="secound commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/team3d/DatabaseContext/ProductDb.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/team3d/DatabaseContext/ProductDb.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/team3d/DatabaseContext/ProductDb.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

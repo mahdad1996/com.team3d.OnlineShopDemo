@@ -26,9 +26,8 @@ public class Main {
         String password = input.next();
         Cart cart = new Cart();
         CartDAO cartDAO = new CartDb();
-        cartDAO.add(cart);
         User user = new User(name,username,password);
-        cart = cartDAO.getCartById(16);
+        cart = cartDAO.getCartById(1);
         user.setCart(cart);
         UserDAO userDAO = new UserDb();
         userDAO.add(user);

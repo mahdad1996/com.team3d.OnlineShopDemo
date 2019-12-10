@@ -124,7 +124,9 @@ public class CartDb implements CartDAO {
             Statement statement = connection.createStatement();
             int i = statement.executeUpdate("DELETE from cartcontent where cart_id="+ cart_id + " AND product_id="+Product_id);
             if(i==1){
+                ProductDb p =new ProductDb();
 
+                p.PlusOne(p.getProductById(Product_id));
                 return true;
             }
         } catch (SQLException ex) {
@@ -159,7 +161,9 @@ public class CartDb implements CartDAO {
         cart.setProducts(cartDAO.getCartContentById(cart.getId()).getProducts());
         cart.calculateTotal();
         cartDAO.update(cart,cart.getId());
-        System.out.println("confirmed! total payment : " + cart.toString());
+
+        System.out.println("confirmed! total payment : " + cart.getTotal());
+        System.out.println(cart.toString());
 
     }
 
